@@ -50,6 +50,15 @@ class HomeScreen extends StatelessWidget {
           ),
           SizedBox(height: 10.0,),
           ClipPath(
+            clipper: WaveClipperOne(reverse: true),
+            child: Container(
+              height: 120,
+              color: Colors.deepPurple,
+              child: Center(child: Text("WaveClipperOne(reverse: true)")),
+            ),
+          ),
+          SizedBox(height: 10.0,),
+          ClipPath(
             clipper: WaveClipperTwo(),
             child: Container(
               height: 120,
