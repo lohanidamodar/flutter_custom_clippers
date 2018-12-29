@@ -9,6 +9,7 @@ To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubsp
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot1.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot2.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot3.png" height="480px">
+<img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot4.png" height="480px">
 
 ## Example
 ```dart
