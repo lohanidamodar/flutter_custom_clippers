@@ -23,6 +23,15 @@ class HomeScreen extends StatelessWidget {
         padding: EdgeInsets.all(20.0),
         children: <Widget>[
           ClipPath(
+            clipper: OctagonalClipper(),
+            child: Container(
+              height: 220,
+              color: Colors.red,
+              child: Center(child: Text("OctagonalClipper()")),
+            ),
+          ),
+          SizedBox(height: 10.0,),
+          ClipPath(
             clipper: DiagonalPathClipperOne(),
             child: Container(
               height: 120,
