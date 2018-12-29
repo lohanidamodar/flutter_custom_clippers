@@ -32,6 +32,24 @@ class HomeScreen extends StatelessWidget {
           ),
           SizedBox(height: 10.0,),
           ClipPath(
+            clipper: HexagonalClipper(),
+            child: Container(
+              height: 220,
+              color: Colors.red,
+              child: Center(child: Text("HexagonalClipper()")),
+            ),
+          ),
+          SizedBox(height: 10.0,),
+          ClipPath(
+            clipper: HexagonalClipper(reverse: true),
+            child: Container(
+              height: 220,
+              color: Colors.red,
+              child: Center(child: Text("HexagonalClipper(reverse: true)")),
+            ),
+          ),
+          SizedBox(height: 10.0,),
+          ClipPath(
             clipper: DiagonalPathClipperOne(),
             child: Container(
               height: 120,
