@@ -10,6 +10,7 @@ To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubsp
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot2.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot3.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot4.png" height="480px">
+<img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot5.png" height="480px">
 
 ## Example
 ```dart
@@ -50,7 +51,7 @@ class HomeScreen extends StatelessWidget {
             clipper: HexagonalClipper(),
             child: Container(
               height: 220,
-              color: Colors.red,
+              color: Colors.blueAccent,
               child: Center(child: Text("HexagonalClipper()")),
             ),
           ),
@@ -59,8 +60,17 @@ class HomeScreen extends StatelessWidget {
             clipper: HexagonalClipper(reverse: true),
             child: Container(
               height: 220,
-              color: Colors.red,
+              color: Colors.orangeAccent,
               child: Center(child: Text("HexagonalClipper(reverse: true)")),
+            ),
+          ),
+          SizedBox(height: 10.0,),
+          ClipPath(
+            clipper: ParallelogramClipper(),
+            child: Container(
+              height: 220,
+              color: Colors.pinkAccent,
+              child: Center(child: Text("ParallelogramClipper()")),
             ),
           ),
           SizedBox(height: 10.0,),

@@ -35,7 +35,7 @@ class HomeScreen extends StatelessWidget {
             clipper: HexagonalClipper(),
             child: Container(
               height: 220,
-              color: Colors.red,
+              color: Colors.blueAccent,
               child: Center(child: Text("HexagonalClipper()")),
             ),
           ),
@@ -44,7 +44,7 @@ class HomeScreen extends StatelessWidget {
             clipper: HexagonalClipper(reverse: true),
             child: Container(
               height: 220,
-              color: Colors.red,
+              color: Colors.orangeAccent,
               child: Center(child: Text("HexagonalClipper(reverse: true)")),
             ),
           ),
@@ -53,7 +53,7 @@ class HomeScreen extends StatelessWidget {
             clipper: ParallelogramClipper(),
             child: Container(
               height: 220,
-              color: Colors.red,
+              color: Colors.pinkAccent,
               child: Center(child: Text("ParallelogramClipper()")),
             ),
           ),
