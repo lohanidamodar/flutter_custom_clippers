@@ -7,3 +7,5 @@ export 'src/parallelogram_clipper.dart';
 export 'src/rounded_diagonal_path_clipper.dart';
 export 'src/wave_clipper_1.dart';
 export 'src/wave_clipper_2.dart';
+export 'src/multiple_pointed_edge.dart';
+export 'src/multiple_rounded_curve.dart';
