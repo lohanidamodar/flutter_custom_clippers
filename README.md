@@ -6,6 +6,7 @@ Flutter package that provides you custom clippers to help you achieve various cu
 To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubspec.yaml file](https://flutter.io/docs/development/packages-and-plugins/using-packages).
 
 ## Screenshot
+<img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot6.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot1.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot2.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot3.png" height="480px">
@@ -38,6 +39,24 @@ class HomeScreen extends StatelessWidget {
       body: ListView(
         padding: EdgeInsets.all(20.0),
         children: <Widget>[
+          ClipPath(
+            clipper: MultipleRoundedCurveClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.pink,
+              child: Center(child: Text("MultipleRoundedCurveClipper()")),
+            ),
+          ),
+          SizedBox(height: 20.0,),
+          ClipPath(
+            clipper: MultiplePointedEdgeClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.green,
+              child: Center(child: Text("MultiplePointedEdgeClipper()")),
+            ),
+          ),
+          SizedBox(height: 20.0,),
           ClipPath(
             clipper: OctagonalClipper(),
             child: Container(
