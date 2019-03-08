@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
             clipper: MultipleRoundedCurveClipper(),
             child: Container(
               height: 100,
-              color: Colors.red,
+              color: Colors.pink,
               child: Center(child: Text("MultipleRoundedCurveClipper()")),
             ),
           ),
@@ -35,7 +35,7 @@ class HomeScreen extends StatelessWidget {
             clipper: MultiplePointedEdgeClipper(),
             child: Container(
               height: 100,
-              color: Colors.red,
+              color: Colors.green,
               child: Center(child: Text("MultiplePointedEdgeClipper()")),
             ),
           ),
