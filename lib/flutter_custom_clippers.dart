@@ -9,3 +9,8 @@ export 'src/wave_clipper_1.dart';
 export 'src/wave_clipper_2.dart';
 export 'src/multiple_pointed_edge.dart';
 export 'src/multiple_rounded_curve.dart';
+export 'src/arc_clipper.dart';
+export 'src/movie_ticket_both_side_clipper.dart';
+export 'src/movie_ticket_clipper.dart';
+export 'src/points_clipper.dart';
+export 'src/triangle_clipper.dart';

@@ -6,7 +6,7 @@ Flutter package that provides you custom clippers to help you achieve various cu
 To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubspec.yaml file](https://flutter.io/docs/development/packages-and-plugins/using-packages).
 
 ## Screenshot
-<img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot6.png" height="480px">
+<img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot7.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot6.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot1.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot2.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot3.png" height="480px">
@@ -173,3 +173,6 @@ class HomeScreen extends StatelessWidget {
   }
 }
 ```
+
+## Credits
+On latest update few clippers were added from [Flutter Clipper Experiments ](https://github.com/spagni/flutter_clipper_experiments) repository.

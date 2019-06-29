@@ -23,6 +23,51 @@ class HomeScreen extends StatelessWidget {
         padding: EdgeInsets.all(20.0),
         children: <Widget>[
           ClipPath(
+            clipper: ArcClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.pink,
+              child: Center(child: Text("ArcClipper()")),
+            ),
+          ),
+          ClipPath(
+            clipper: PointsClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.indigo,
+              child: Center(child: Text("PointsClipper()")),
+            ),
+          ),
+          SizedBox(height: 10.0),
+          ClipPath(
+            clipper: TriangleClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.deepOrange,
+              child: Center(child: Text("TriangleClipper()")),
+            ),
+          ),
+          ClipPath(
+            clipper: MovieTicketClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.deepPurple,
+              child: Center(child: Text("MovieTicketClipper()")),
+            ),
+          ),
+          SizedBox(height: 10.0),
+          ClipPath(
+            clipper: MovieTicketBothSidesClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.green,
+              child: Center(child: Text("MovieTicketBothSidesClipper()")),
+            ),
+          ),
+          SizedBox(height: 10.0),
+
+
+          ClipPath(
             clipper: MultipleRoundedCurveClipper(),
             child: Container(
               height: 100,
