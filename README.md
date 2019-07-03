@@ -6,14 +6,13 @@ Flutter package that provides you custom clippers to help you achieve various cu
 To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubspec.yaml file](https://flutter.io/docs/development/packages-and-plugins/using-packages).
 
 ## Screenshot
-<img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot7.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot6.png" height="480px">
+<img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/arrow.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/star.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot7.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot6.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot1.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot2.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot3.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot4.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot5.png" height="480px">
-<img src="screenshots/arrow.png" height="480px">
-<img src="screenshots/star.png" height="480px">
+
 
 
 
