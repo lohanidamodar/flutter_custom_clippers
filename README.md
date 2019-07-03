@@ -5,6 +5,11 @@ Flutter package that provides you custom clippers to help you achieve various cu
 ## Usage
 To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubspec.yaml file](https://flutter.io/docs/development/packages-and-plugins/using-packages).
 
+## Contributors
+1. [Damodar Lohani](https://github.com/lohanidamodar)
+2. [Siddhartha Joshi](https://github.com/cimplesid)
+
+
 ## Screenshot
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/arrow.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/star.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot7.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot6.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot1.png" height="480px">
