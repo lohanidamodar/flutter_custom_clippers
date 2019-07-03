@@ -73,9 +73,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("MultipleRoundedCurveClipper()")),
             ),
           ),
-          SizedBox(
-            height: 20.0,
-          ),
+          SizedBox(height: 20.0),
           ClipPath(
             clipper: MultiplePointedEdgeClipper(),
             child: Container(
@@ -84,9 +82,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("MultiplePointedEdgeClipper()")),
             ),
           ),
-          SizedBox(
-            height: 20.0,
-          ),
+          SizedBox(height: 20.0),
           ClipPath(
             clipper: OctagonalClipper(),
             child: Container(
@@ -95,9 +91,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("OctagonalClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipPath(
             clipper: HexagonalClipper(),
             child: Container(
@@ -106,9 +100,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("HexagonalClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipPath(
             clipper: HexagonalClipper(reverse: true),
             child: Container(
@@ -117,9 +109,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("HexagonalClipper(reverse: true)")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipPath(
             clipper: ParallelogramClipper(),
             child: Container(
@@ -128,9 +118,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("ParallelogramClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipPath(
             clipper: DiagonalPathClipperOne(),
             child: Container(
@@ -139,9 +127,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("DiagonalPathClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipPath(
             clipper: DiagonalPathClipperTwo(),
             child: Container(
@@ -150,9 +136,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("DiagonalPathClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipPath(
             clipper: WaveClipperOne(),
             child: Container(
@@ -161,9 +145,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("WaveClipperOne()")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipPath(
             clipper: WaveClipperOne(reverse: true),
             child: Container(
@@ -172,9 +154,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("WaveClipperOne(reverse: true)")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipPath(
             clipper: WaveClipperTwo(),
             child: Container(
@@ -183,9 +163,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("WaveClipperTwo()")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipPath(
             clipper: WaveClipperTwo(reverse: true),
             child: Container(
@@ -194,9 +172,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("WaveClipperTwo(reverse: true)")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipPath(
             clipper: RoundedDiagonalPathClipper(),
             child: Container(
@@ -208,9 +184,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("RoundedDiagonalPathClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          SizedBox(height: 10.0),
           ClipOval(
             clipper: OvalTopBorderClipper(),
             child: Container(
@@ -219,9 +193,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("OvalTopBorderClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10,
-          ),
+          SizedBox(height: 10),
           ClipPath(
             clipper: ArrowClipper(70, 80, Edge.LEFT),
             child: Container(
@@ -230,9 +202,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("ArrowClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10,
-          ),
+          SizedBox(height: 10),
           ClipPath(
             clipper: ArrowClipper(70, 80, Edge.RIGHT),
             child: Container(
@@ -241,9 +211,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("ArrowClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10,
-          ),
+          SizedBox(height: 10),
           ClipPath(
             clipper: ArrowClipper(20, 300, Edge.TOP),
             child: Container(
@@ -253,9 +221,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("ArrowClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10,
-          ),
+          SizedBox(height: 10),
           ClipPath(
             clipper: ArrowClipper(70, 80, Edge.BOTTOM),
             child: Container(
@@ -264,9 +230,7 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("ArrowClipper()")),
             ),
           ),
-          SizedBox(
-            height: 10,
-          ),
+          SizedBox(height: 10),
           ClipPath(
             clipper: StarClipper(8),
             child: Container(
