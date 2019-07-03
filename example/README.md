@@ -139,6 +139,28 @@ class HomeScreen extends StatelessWidget {
               child: Center(child: Text("OvalTopBorderClipper()")),
             ),
           ),
+           SizedBox(
+            height: 10,
+          ),
+          ClipPath(
+            clipper: ArrowClipper(70, 80, Edge.BOTTOM),
+            child: Container(
+              height: 120,
+              color: Colors.green,
+              child: Center(child: Text("ArrowClipper()")),
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          ClipPath(
+            clipper: StarClipper(8),
+            child: Container(
+              height: 450,
+              color: Colors.indigo,
+              child: Center(child: Text("Starlipper()")),
+            ),
+          ),
         ],
       ),
     );

@@ -14,3 +14,5 @@ export 'src/movie_ticket_both_side_clipper.dart';
 export 'src/movie_ticket_clipper.dart';
 export 'src/points_clipper.dart';
 export 'src/triangle_clipper.dart';
+export 'src/arrow_clipper.dart';
+export 'src/star_clipper.dart';
