@@ -12,6 +12,12 @@ To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubsp
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot3.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot4.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot5.png" height="480px">
+<img src="screenshots/arrow.png" height="480px">
+<img src="screenshots/star.png" height="480px">
+
+
+
+
 
 ## Example
 ```dart
@@ -165,6 +171,28 @@ class HomeScreen extends StatelessWidget {
               height: 120,
               color: Colors.yellow,
               child: Center(child: Text("OvalTopBorderClipper()")),
+            ),
+          ),
+            SizedBox(
+            height: 10,
+          ),
+          ClipPath(
+            clipper: ArrowClipper(70, 80, Edge.BOTTOM),
+            child: Container(
+              height: 120,
+              color: Colors.green,
+              child: Center(child: Text("ArrowClipper()")),
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          ClipPath(
+            clipper: StarClipper(8),
+            child: Container(
+              height: 450,
+              color: Colors.indigo,
+              child: Center(child: Text("Starlipper()")),
             ),
           ),
         ],
