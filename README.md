@@ -11,7 +11,7 @@ To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubsp
 
 
 ## Screenshot
-<img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/message.png" height="480px"> 
+<img src="https://github.com/cimplesid/flutter_custom_clippers/blob/master/screenshots/message.png" height="480px"> 
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/arrow.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/star.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot7.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot6.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot1.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot2.png" height="480px">
@@ -201,10 +201,13 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
            ClipPath(
-            clipper: MessageClipper(),
+            clipper: MessageClipper(borderRadius: 16),
             child: Container(
-              height: 100,
-              color: Colors.green,
+              height: 200,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(16.0)),
+                color: Colors.red,
+              ),
               child: Center(child: Text("MessageClipper()")),
             ),
           ),
