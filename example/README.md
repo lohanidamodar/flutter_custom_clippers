@@ -158,7 +158,18 @@ class HomeScreen extends StatelessWidget {
             child: Container(
               height: 450,
               color: Colors.indigo,
-              child: Center(child: Text("Starlipper()")),
+              child: Center(child: Text("StarClipper()")),
+            ),
+          ),
+            ClipPath(
+            clipper: MessageClipper(borderRadius: 16),
+            child: Container(
+              height: 200,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(16.0)),
+                color: Colors.red,
+              ),
+              child: Center(child: Text("MessageClipper()")),
             ),
           ),
         ],
