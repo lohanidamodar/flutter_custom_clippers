@@ -11,6 +11,7 @@ To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubsp
 
 
 ## Screenshot
+<img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/message.png" height="480px"> 
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/arrow.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/star.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot7.png" height="480px"> <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot6.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot1.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot2.png" height="480px">
@@ -197,6 +198,14 @@ class HomeScreen extends StatelessWidget {
               height: 450,
               color: Colors.indigo,
               child: Center(child: Text("Starlipper()")),
+            ),
+          ),
+           ClipPath(
+            clipper: MessageClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.green,
+              child: Center(child: Text("MessageClipper()")),
             ),
           ),
         ],

@@ -22,6 +22,9 @@ class HomeScreen extends StatelessWidget {
       body: ListView(
         padding: EdgeInsets.all(20.0),
         children: <Widget>[
+          SizedBox(
+            height: 10,
+          ),
           ClipPath(
             clipper: ArcClipper(),
             child: Container(
@@ -237,6 +240,14 @@ class HomeScreen extends StatelessWidget {
               height: 450,
               color: Colors.indigo,
               child: Center(child: Text("Starlipper()")),
+            ),
+          ),
+          ClipPath(
+            clipper: MessageClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.green,
+              child: Center(child: Text("MessageClipper()")),
             ),
           ),
         ],
