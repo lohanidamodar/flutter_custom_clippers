@@ -13,11 +13,14 @@ class MessageClipper extends CustomClipper<Path> {
     double oneThird = width / 3;
 
     final path = Path()
+      ..lineTo(0, rheight - borderRadius)
       ..cubicTo(0, rheight - borderRadius, 0, rheight, borderRadius, rheight)
       ..lineTo(oneThird, rheight)
+      ..lineTo(width/2-borderRadius, height-borderRadius)
       ..cubicTo(width / 2 - borderRadius, height - borderRadius, width / 2,
           height, width / 2 + borderRadius, height - borderRadius )
       ..lineTo(2 * oneThird, rheight)
+      ..lineTo(width-borderRadius, rheight)
       ..cubicTo(width - borderRadius, rheight, width, rheight, width,
           rheight - borderRadius)
       ..lineTo(width, 0)
