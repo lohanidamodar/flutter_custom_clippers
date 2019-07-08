@@ -6,3 +6,6 @@
 ## 1.0.3
 * ArrowClipper and StarClipper are added
 * MessageClipper added
+
+## 1.0.4
+* Message Clipper problem fixed
