@@ -18,6 +18,7 @@ To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubsp
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot3.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot4.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot5.png" height="480px">
+<img src="screenshots/side.png" height="480px">
 
 
 
@@ -50,6 +51,15 @@ class HomeScreen extends StatelessWidget {
       body: ListView(
         padding: EdgeInsets.all(20.0),
         children: <Widget>[
+           ClipPath(
+            clipper: SideCutClipper(),
+            child: Container(
+              height: 600,
+              width: 500  ,
+              color: Colors.pink,
+              child: Center(child: Text("SideCutClipper()")),
+            ),
+          ),
           ClipPath(
             clipper: MultipleRoundedCurveClipper(),
             child: Container(

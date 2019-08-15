@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class SideCutClipper extends CustomClipper<Path> {
     final double depth ;
     final double borderadius ;
-  SideCutClipper({this.borderadius=10,this.depth=40})
+  SideCutClipper({this.borderadius=10,this.depth=40});
   @override
   Path getClip(Size size) {
     double height = size.height;
