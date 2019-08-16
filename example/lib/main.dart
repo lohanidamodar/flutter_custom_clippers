@@ -26,8 +26,8 @@ class HomeScreen extends StatelessWidget {
             clipper: SideCutClipper(),
             child: Container(
               height: 600,
-              width: 500  ,
               color: Colors.pink,
+              //play with scals to get more clear versions
               child: Center(child: Text("SideCutClipper()")),
             ),
           ),
