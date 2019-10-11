@@ -41,6 +41,16 @@ class HomeScreen extends StatelessWidget {
           ),
           const SizedBox(height: 10.0),
           ClipPath(
+            clipper: SideCutClipper(),
+            child: Container(
+              height: 200,
+              color: Colors.pink,
+              //play with scals to get more clear versions
+              child: Center(child: Text("SideCutClipper()")),
+            ),
+          ),
+          const SizedBox(height: 10.0),
+          ClipPath(
             clipper: OvalLeftBorderClipper(),
             child: Container(
               height: 100,

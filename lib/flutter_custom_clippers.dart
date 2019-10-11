@@ -20,3 +20,4 @@ export 'src/message_clipper.dart';
 export 'src/oval_left_clipper.dart';
 export 'src/oval_right_clipper.dart';
 export 'src/oval_bottom_clipper.dart';
+export 'src/side_cut_clipper.dart';
