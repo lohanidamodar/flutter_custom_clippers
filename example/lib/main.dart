@@ -22,9 +22,33 @@ class HomeScreen extends StatelessWidget {
       body: ListView(
         padding: EdgeInsets.all(20.0),
         children: <Widget>[
-          SizedBox(
-            height: 10,
+          ClipPath(
+            clipper: OvalBottomBorderClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.blue,
+              child: Center(child: Text("OvalBottomBorderClipper()")),
+            ),
           ),
+          const SizedBox(height: 10.0),
+          ClipPath(
+            clipper: OvalRightBorderClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.red,
+              child: Center(child: Text("OvalRightBorderClipper()")),
+            ),
+          ),
+          const SizedBox(height: 10.0),
+          ClipPath(
+            clipper: OvalLeftBorderClipper(),
+            child: Container(
+              height: 100,
+              color: Colors.green,
+              child: Center(child: Text("OvalLeftBorderClipper()")),
+            ),
+          ),
+          const SizedBox(height: 10.0),
           ClipPath(
             clipper: ArcClipper(),
             child: Container(
@@ -188,7 +212,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
           SizedBox(height: 10.0),
-          ClipOval(
+          ClipPath(
             clipper: OvalTopBorderClipper(),
             child: Container(
               height: 120,

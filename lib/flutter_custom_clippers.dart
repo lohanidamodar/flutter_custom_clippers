@@ -17,3 +17,6 @@ export 'src/triangle_clipper.dart';
 export 'src/arrow_clipper.dart';
 export 'src/star_clipper.dart';
 export 'src/message_clipper.dart';
+export 'src/oval_left_clipper.dart';
+export 'src/oval_right_clipper.dart';
+export 'src/oval_bottom_clipper.dart';
