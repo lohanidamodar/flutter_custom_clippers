@@ -9,3 +9,7 @@
 
 ## 1.0.4
 * Message Clipper problem fixed
+
+## 1.1.0
+* Oval Bottom, right and left clippers
+* Side Cut clipper
