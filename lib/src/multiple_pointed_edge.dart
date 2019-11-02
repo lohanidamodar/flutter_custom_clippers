@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MultiplePointedEdgeClipper extends CustomClipper<Path> {
-  
- @override
+  @override
   Path getClip(Size size) {
     Path path = Path();
     path.lineTo(0, size.height);
@@ -17,7 +16,7 @@ class MultiplePointedEdgeClipper extends CustomClipper<Path> {
     path.lineTo(size.width, 0);
     return path;
   }
-  
+
   @override
   bool shouldReclip(CustomClipper<Path> oldClipper) => false;
 }
