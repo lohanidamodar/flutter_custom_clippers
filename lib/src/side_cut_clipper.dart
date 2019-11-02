@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SideCutClipper extends CustomClipper<Path> {
-  //play with scals to get more clear versions
+  // Play with scals to get more clear versions
   @override
   Path getClip(Size size) {
     double xFactor = 18, yFactor = 15;
@@ -40,8 +40,8 @@ class SideCutClipper extends CustomClipper<Path> {
     xVal = xVal + xFactor * scale;
     yVal = yVal + yFactor * scale;
 
-//need to recreate a better later
-    //first point in curve
+    // TODO: Need to recreate a better later.
+    // First point in curve
     // double test = 2.2;
     // path.cubicTo(xVal, yVal, xVal, yVal + yFactor * test, xVal - xFactor * test,
     //     yVal + yFactor * test);

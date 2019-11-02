@@ -6,13 +6,13 @@ enum Edge { TOP, RIGHT, BOTTOM, LEFT }
 class ArrowClipper extends CustomClipper<Path> {
   ArrowClipper(this.triangleHeight, this.rectangleClipHeight, this.edge);
 
-  ///The height of the triangle part of arrow in the [edge] direction
+  // The height of the triangle part of arrow in the [edge] direction
   final double triangleHeight;
 
-  ///The height of the rectangle part of arrow that is clipped
+  // The height of the rectangle part of arrow that is clipped
   final double rectangleClipHeight;
 
-  ///The edge the arrow points
+  // The edge the arrow points
   final Edge edge;
 
   @override
