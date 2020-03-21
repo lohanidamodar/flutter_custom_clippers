@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 class StarClipper extends CustomClipper<Path> {
   StarClipper(this.numberOfPoints);
 
-  ///The number of points of the star
+  // The number of points of the star
   final int numberOfPoints;
 
   @override
