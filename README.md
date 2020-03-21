@@ -2,6 +2,9 @@
 
 Flutter package that provides you custom clippers to help you achieve various custom shapes.
 
+[![Pub Package](https://img.shields.io/pub/v/flutter_custom_clippers.svg?style=flat-square)](https://pub.dartlang.org/packages/flutter_custom_clippers)
+
+
 ## Usage
 To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubspec.yaml file](https://flutter.io/docs/development/packages-and-plugins/using-packages).
 
