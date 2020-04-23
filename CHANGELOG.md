@@ -1,3 +1,7 @@
+## 1.1.1
+* `WaveClipperOne` horizontal flip `WaveClipperOne(flip: true)`
+* `WaveClipperTwo` horizontal flip `WaveClipperTwo(flip: true)`
+
 ## 1.0.1
 
 * Lots of new clippers added with demonstration.
