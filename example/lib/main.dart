@@ -23,6 +23,24 @@ class HomeScreen extends StatelessWidget {
         padding: EdgeInsets.all(20.0),
         children: <Widget>[
           ClipPath(
+            clipper: WaveClipperOne(flip: true,reverse: true),
+            child: Container(
+              height: 120,
+              color: Colors.orange,
+              child: Center(child: Text("WaveClipperTwo(flip: true,reverse: true)")),
+            ),
+          ),
+          SizedBox(height: 10.0),
+          ClipPath(
+            clipper: WaveClipperOne(flip: true),
+            child: Container(
+              height: 120,
+              color: Colors.orange,
+              child: Center(child: Text("WaveClipperTwo(flip: true)")),
+            ),
+          ),
+          SizedBox(height: 10.0),
+          ClipPath(
             clipper: WaveClipperTwo(flip: true,reverse: true),
             child: Container(
               height: 120,
