@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Clip widget in parallelogram shape
 class ParallelogramClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

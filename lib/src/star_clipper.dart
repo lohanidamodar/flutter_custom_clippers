@@ -1,10 +1,11 @@
 import 'dart:math' as math;
 import 'package:flutter/widgets.dart';
 
+/// Clip widget in star shape
 class StarClipper extends CustomClipper<Path> {
   StarClipper(this.numberOfPoints);
 
-  // The number of points of the star
+  /// The number of points of the star
   final int numberOfPoints;
 
   @override

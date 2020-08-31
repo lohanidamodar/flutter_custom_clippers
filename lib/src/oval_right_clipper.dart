@@ -1,10 +1,11 @@
-/**
- * Author: Damodar Lohani
- * profile: https://github.com/lohanidamodar
-  */
+///
+/// Author: Damodar Lohani
+/// profile: https://github.com/lohanidamodar
+///
 
 import 'package:flutter/material.dart';
 
+/// Clip widget in oval shape at right side
 class OvalRightBorderClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// [DiagonalPathClipperOne], can be used with [ClipPath] widget, and clips the widget diagonally
+
 class DiagonalPathClipperOne extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

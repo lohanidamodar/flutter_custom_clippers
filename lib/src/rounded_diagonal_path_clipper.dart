@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Diagonal clipper with rounded borders
 class RoundedDiagonalPathClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

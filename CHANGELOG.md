@@ -1,3 +1,6 @@
+## 1.1.2
+* Adding dart doc comments
+
 ## 1.1.1
 * `WaveClipperOne` horizontal flip `WaveClipperOne(flip: true)`
 * `WaveClipperTwo` horizontal flip `WaveClipperTwo(flip: true)`

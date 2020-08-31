@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Multiple rounded curve clipper to use with [ClipPath]
 class MultipleRoundedCurveClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Oval bottom clipper to clip widget in oval shape at the bottom side
 class OvalBottomBorderClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

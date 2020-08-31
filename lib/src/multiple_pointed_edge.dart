@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Pointed edge clipper to be used with [ClipPath]
 class MultiplePointedEdgeClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+/// Clipper to Cut widget at the side
+
 class SideCutClipper extends CustomClipper<Path> {
-  // Play with scals to get more clear versions
+  /// Play with scals to get more clear versions
   @override
   Path getClip(Size size) {
     double xFactor = 18, yFactor = 15;

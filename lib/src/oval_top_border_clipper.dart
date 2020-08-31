@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Clip widget in oval shape at top side
 class OvalTopBorderClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

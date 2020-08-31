@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Octoganal clipper clips the widget in octagon shape used with [ClipPath]
 class OctagonalClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

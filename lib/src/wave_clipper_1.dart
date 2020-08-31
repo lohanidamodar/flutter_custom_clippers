@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
+/// Clip widget in wave shape shape
 class WaveClipperOne extends CustomClipper<Path> {
+  /// reverse the wave direction in vertical axis
   bool reverse;
+
+  /// flip the wave direction horizontal axis
   bool flip;
 
   WaveClipperOne({this.reverse = false, this.flip = false});
@@ -24,7 +28,6 @@ class WaveClipperOne extends CustomClipper<Path> {
         ..close();
       return path;
     } else if (!reverse && flip) {
-      
       Offset firstEndPoint = Offset(size.width * .5, size.height - 20);
       Offset firstControlPoint = Offset(size.width * .25, size.height - 10);
       Offset secondEndPoint = Offset(size.width, size.height);

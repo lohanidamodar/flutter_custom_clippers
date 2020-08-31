@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// [HexagonalClipper], can be used with [ClipPath] widget, and clips the widget in Hexagon shape
 class HexagonalClipper extends CustomClipper<Path> {
   final bool reverse;
 

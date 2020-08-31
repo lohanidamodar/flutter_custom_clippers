@@ -2,6 +2,7 @@ import 'dart:core';
 
 import 'package:flutter/material.dart';
 
+/// [MessageClipper], can be used with [ClipPath] widget, and clips the widget in dialog box shape
 class MessageClipper extends CustomClipper<Path> {
   MessageClipper({this.borderRadius = 15});
   final double borderRadius;
