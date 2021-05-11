@@ -18,7 +18,7 @@ class StarClipper extends CustomClipper<Path> {
 
     double radius = halfWidth / 2;
 
-    double degreesPerStep = _degToRad(360 / numberOfPoints);
+    double degreesPerStep = _degToRad(360 / numberOfPoints) as double;
 
     double halfDegreesPerStep = degreesPerStep / 2;
 
