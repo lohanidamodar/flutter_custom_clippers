@@ -1,3 +1,6 @@
+## 2.0.0
+* Null safety migration
+
 ## 1.1.2
 * Adding dart doc comments
 
