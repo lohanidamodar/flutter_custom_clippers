@@ -1,8 +1,8 @@
 name: Publish to pub.dev
 on:
-  push:
-    branches:   
-      - master
+  release:
+    types: [published]
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,8 +12,8 @@ jobs:
     - uses: actions/checkout@v1
     - name: Setup credentials
       run: | 
-        mkdir -p ~/.pub-cache 
-        cat <<EOF > ~/.pub-cache/credentials.json
+        mkdir -p ~/.config/dart 
+        cat <<EOF > ~/.config/dart/pub-credentials.json
         {
           "accessToken":"${{ secrets.OAUTH_ACCESS_TOKEN }}",
           "refreshToken":"${{ secrets.OAUTH_REFRESH_TOKEN }}",
@@ -23,4 +23,4 @@ jobs:
         }
         EOF
     - name: Publish package
-      run: pub publish -f
+      run: dart pub publish -f
