@@ -22,7 +22,7 @@ To use this plugin, add `flutter_custom_clippers` as a [dependency in your pubsp
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot4.png" height="480px">
 <img src="https://github.com/lohanidamodar/flutter_custom_clippers/raw/master/screenshots/screenshot5.png" height="480px">
 <img src="screenshots/side.png" height="480px">
-
+<img src="https://github.com/shwetavish/flutter_custom_clippers/blob/wavy_circle_clipper/screenshots/screenshot10.png" height="480px">
 
 
 
@@ -222,6 +222,16 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.red,
               ),
               child: Center(child: Text("MessageClipper()")),
+            ),
+          ),
+           SizedBox(height: 20),
+          ClipPath(
+            clipper: WavyCircleClipper(32),
+            child: Container(
+              width: 400,
+              height: 400,
+              color: Colors.purple,
+              child: const Center(child: Text("WavyCircleClipper()")),
             ),
           ),
         ],

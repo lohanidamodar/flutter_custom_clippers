@@ -23,11 +23,12 @@ class HomeScreen extends StatelessWidget {
         padding: EdgeInsets.all(20.0),
         children: <Widget>[
           ClipPath(
-            clipper: WaveClipperOne(flip: true,reverse: true),
+            clipper: WaveClipperOne(flip: true, reverse: true),
             child: Container(
               height: 120,
               color: Colors.orange,
-              child: Center(child: Text("WaveClipperTwo(flip: true,reverse: true)")),
+              child: Center(
+                  child: Text("WaveClipperTwo(flip: true,reverse: true)")),
             ),
           ),
           SizedBox(height: 10.0),
@@ -41,11 +42,12 @@ class HomeScreen extends StatelessWidget {
           ),
           SizedBox(height: 10.0),
           ClipPath(
-            clipper: WaveClipperTwo(flip: true,reverse: true),
+            clipper: WaveClipperTwo(flip: true, reverse: true),
             child: Container(
               height: 120,
               color: Colors.orange,
-              child: Center(child: Text("WaveClipperTwo(flip: true,reverse:true)")),
+              child: Center(
+                  child: Text("WaveClipperTwo(flip: true,reverse:true)")),
             ),
           ),
           SizedBox(height: 10.0),
@@ -321,6 +323,16 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.red,
               ),
               child: Center(child: Text("MessageClipper()")),
+            ),
+          ),
+          SizedBox(height: 20),
+          ClipPath(
+            clipper: WavyCircleClipper(32),
+            child: Container(
+              width: 400,
+              height: 400,
+              color: Colors.purple,
+              child: const Center(child: Text("WavyCircleClipper()")),
             ),
           ),
         ],
